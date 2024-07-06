@@ -37,8 +37,9 @@ img {
 
 .header .links {
     display: flex;
-    gap: 15px;
-    flex: 0 1 auto;
+    align-items: center;
+    gap: 25px;
+    flex: 0 0 auto;
 }
 
 .media {
@@ -69,4 +70,5 @@ img {
     color: white;
     border-radius: 10px;
     border: 1px solid black;
+    cursor: pointer;
 }
