@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     margin: 0;
 }
 
@@ -66,9 +70,65 @@ img {
 
 .content button {
     padding: 5px 15px 5px 15px;
-    background-color: #008CBA;
+    background-color: #3882f6;
     color: white;
     border-radius: 10px;
     border: 1px solid black;
     cursor: pointer;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.random-title {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 50px 0;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.random-info {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 125px;
+    gap: 15px;
+}
+
+.box {
+    height: 125px;
+    width: 125px;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 100px 200px 100px 200px;
+    background-color: #e5e7eb;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote .credit {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
 }
