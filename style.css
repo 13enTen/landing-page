@@ -133,7 +133,7 @@ img {
     font-weight: bold;
 }
 
-.sign-up {
+.sign-up-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,7 +157,7 @@ img {
     font-weight: bolder;
 }
 
-.sign-up button {
+.sign-up-section button {
     background-color: #3882f6;
     color: white;
     padding: 5px 20px;
